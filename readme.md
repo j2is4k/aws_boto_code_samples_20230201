@@ -10,3 +10,4 @@ Especially interesting sections:
   * ddb_model
   * lazy_condition
   * notation
+  * pytest
