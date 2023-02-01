@@ -78,7 +78,7 @@ sys.path.append(os.path.abspath(os.path.join(__file__, "../layer")))
 sys.path.append(os.path.abspath(os.path.join(__file__, "../../")))
 
 # Bitbucket pipeline automatically sets the environment Variable CI = True
-os.environ["BALDENEY_TEST_TYPE_PIPE"] = os.environ.get("CI", "false")
+os.environ["TEST_TYPE_PIPE"] = os.environ.get("CI", "false")
 
 
 LOADED_LAMBDAS = {}
